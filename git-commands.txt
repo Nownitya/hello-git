@@ -1,0 +1,34 @@
+git initg - Create a new local repository.
+$ git int
+
+git config - Sets configuration values.
+$ git config --global user.name "Nownitya Sharma"
+
+git clone - Creates a GIT repository copy from a remote source.
+$ git clone <remote_URL>
+
+git add - Adds files changes in working directory to index.
+$ git add <file or directory name>
+$ git add .
+
+git rm - Removes files from index and working directory.
+$ git rm --cached <file name>
+
+git commit -m - Records changes to the repository.
+$ git commit -m "Commit message"
+
+git status - Displays the state of the working directory.
+$ git status
+
+git branch - Lists existing branches, including remote branches.
+$ git branch <branch_name>
+
+git push origin master - updates remote refs along with associated objects.
+$ git push <remote_URL/remote_name> <branch>
+
+
+git remote - Shows all the remote versions of repository.
+$ git remote <command> <remote_name> <remote_URL>
+
+git log - To show the chronological commit history for a repository.
+$ git log
